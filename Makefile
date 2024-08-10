@@ -17,3 +17,4 @@ server:
 
 clean:
 	rmdir /s /q $(VENV_DIR)
+	rm db.sqlite3
